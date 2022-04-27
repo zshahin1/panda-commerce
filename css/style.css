@@ -13,7 +13,7 @@
 .price{
     color: #FF136f;
 }
-.buy-now-button{
+.button{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color:#fff;
     border: none;
@@ -31,13 +31,33 @@
     padding: 10px 30px;
     border-radius: 10px;
     
+    
 }
 .cat-1{
-    background-color: orange;
+    background-image: linear-gradient(45deg, orange, gold);
+    
 }
 .cat-2{
-    background-color: #FF136f;
+    background-image: linear-gradient(45deg,#b9245d, red);
 }
 .cat-3{
-    background-color: blue;
+    background-image: linear-gradient(45deg, rgb(120, 59, 219), blue);
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
